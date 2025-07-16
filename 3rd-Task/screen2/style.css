@@ -1,3 +1,57 @@
-p{
-    font-size: 20px;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+.main{
+    background-color: maroon;
+    width: 99vw;
+    height: 160vh;
+    display: inline-block;
+    padding-left:9% ;
+    padding-top: 4%;
+}
+.logo{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 10rem;
+    height: 10.5rem;
+ 
+}
+.first_h{
+    font-size: 607%;
+    font-weight: 1000;
+    color: white;
+    margin-left:0%;
+}
+.second_h{
+    font-size: 290%;
+    font-weight: 800;
+    position: relative;
+    bottom: 1rem;
+    left:0.2rem;
+}
+.main p{
+    font-size:22px;
+    font-weight: 400;
+    color: white;
+    width: 78vw;
+    letter-spacing: 1.5px;
+    position: relative;
+    top:25px;
+    
+}
+.para_2{
+    margin-top: 30px;
+}
+.triangle{
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid rgba(249, 249, 249, 0.919);
+      border-left: 100px solid transparent;
+      colour:white;
+      
+
+    }
