@@ -1,253 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img class="logo" src=./images/looo.png alt="logo">
+    <div class="container">
+    <header class="header">
+
+<div class="logo"><img src="images/logo.png" alt="png"></div>
+<div class="contact-info"><p class="call">CALL OUR OFFICES NOW</p>
+<P class="number">540.433.6906</P>
+<P class="question">Get your Question Answered Fast</P></div>
     </header>
-      <div class="contact-info">
-        <p>CALL OUR OFFICES NOW!</p>
-        <h1>540.433.6906</h1>
-        <span>Get Your Questions Answered Fast</span>
-      </div>
-          </div>
+        <nav class="navigation">
+            <div class="comp" onclick="toggleMenu()">&#9776;
 
-      <nav>
-      <a href="#">HOME</a>
-      <a href="#">BIOGRAPHY</a>
-      <a href="#">BLOG</a>
-      <a href="#">AREAS WE SERVE</a>
-      <a href="#">LIBRARY</a>
-      <a href="#">CONTACT</a>
-    </nav>
-    <main class="flex">
-    <div class="main_banner">
-      <img src="images/gurantee_banner.gif" alt="30 years of success">
-    </div>
-    <!--banner portion-->
-    <div class="form-section">
-    <div class="text">
-      <h2>QUESTIONS?</h2>
-      <h3>Have a <span class="blue"> Question</span></br>About your Case?</h3>
-    </div>
-    <p class="form_para"> Enter you information and get your questions answered <br>quickly and discretly or call us  at:<strong style="font-weight: bolder">  540.433.6906</strong></p>
-    <div class="b_form">
-      <form>
-        <div class="form_div">
-          <label for="name">NAME :</label>
-          <input type="text" ></div>
-        <div class="form_div">
-          <label for="email">EMAIL :</label>
-          <input type="email" ></div>
-        <div class="form_div phone">
-          <label for="phone">PHONE :</label>
-          <input type="tel" >
-        </div>
-      </form>
-       <div>
-           <img class="confidental" src="/4th-Task/images/confidential.png" alt="">
-        </div>
-    </div>
-    <textarea placeholder="Tell us about your case here..."></textarea>
-    <div class="last">
-      <p class="1st_para">100% Privacy Guaranteed </p>
-      <button class="form_button">Ask Us About Your Case <img src="../4th-Task/images/bullet_white_lrg.png" alt=""></button>
-    </div>
-    </div >
-    </main>
-    <!--second section-->
-    <section class="second">
-    <div class="first_section">
+            </div>
 
-    <h1 class="head1">CHARGED WITH <span style="color: brown;"> DUI?</span></h1>
-    <h4>FREE CASE EVALUATION</h4><div class="heading">
-    <div class="para">  <p class="sec1_para">Being charged with a DUI can be scary. Get the help you deserve</p>
-    <p class="sec1_para"style="margin-top: 20px;">Click here to let us know how we can help you with your case</p></div>
-    <div class="imgs"><img class="paste_board" src="./images/paste_board.gif" alt=""></div>
+            
+            <ul>
+                <li>HOME</li>
+                <li>BIOGRAPHY</li>
+                <li>BLOGS</li>
+                <li>AREAS WE SERVE</li>
+                <li>LIBRARY</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+        
+        <section class="flex">
+            <div class="right">
+            <img src="./images/gurantee_banner.gif" alt="">
+            </div>
+            <!--banner portion-->
+            <div class="form-section">
+           <div class="text1">
+           <h1>QUESTION?</h1>
+           <H2>Have a <span class="banner_h2">Question</span> <br>About Your Case?</H2>
+
+            </div>
+            <p class="b_form">Enter your information and get your questions answered quickly and discretly or call us at : <strong>540.433.6906</strong></p>
+           
+            <div class="before-form">
+
+             <div class="form1">  
+              <form action="">
+           <label for="name">NAME:
+           <input type="text">
+           </label>
+          <label for="email">EMAIL:
+          <input type="email" >
+          </label>
+        <label for="phone">PHONE:
+         <input type="number" >
+         </label>
+
+                </form></div>
+                <img class="confidential" src="./images/confidential.png" alt="png">
+                </div>
+<textarea  placeholder="Tell me about your case here..."></textarea>
+<div class="last">
+<div class="para"><p><i>100% Privacy Guaranteed</i></p></div>
+<div class="btn5">
+<button>Ask Us About Your Case <img src="./images/bullet_white.gif" alt=""></button>
+
 </div>
-<div class="line2">
+
+
+</div>
+
+            </div>
+        </section>
+        <!--second-->
+        <section class="second">
+            <div class="first_section">
+
+    <h1 class="hed">CHARGED WITH <span style="color: brown;"> DUI?</span></h1>
+    <h3>FREE CASE EVALUATION</h3>
+    <div class="heading">
+  <div class="para">  <p>Being charged with DUI can be scary.Get the help you deserve</p>
+    <p >Click Here To Let Us Know How We Can Help You With Your Case</p></div>
+
+<div class="imgs"><img src="./images/paste_board.gif" alt=""></div>
+</div>
+<div class="line3">
 <div class="line" ></div>
-<button class="btn">CLICK HERE <img src="./images/bullet_white.gif" alt=""></button>
+<button class="btn5">CLICK HERE <img src="./images/bullet_white.gif" alt=""></button>
 </div>
 
 </div>
+
 <div class="second_section">
-  <div class="second-top">
+  <div class="main-top">
     <div class="tex">
-<h1 class="sec2_head" style="font-size:25px">LAW <span style="color: brown;">BLOG</span></h1>
-<p class="sec1_para sec2_para">Learn more about<br>Virginia Traffic Laws.<br></p>
+<h1 style="font-size: 25px;">LAW <span style="color: brown;">BLOG</span></h1>
+<p>Learn more about virginia traffic laws.</p>
 <div class="line3">
 <div class="line1"></div>
-<div class="btn2"><button >CLICK HERE <img src="./images/bullet_white_lrg.png" alt=""></button></div>
+<div class="btn2"><button >CLICK HERE <img src="./images/bullet_white.gif" alt=""></button></div>
 </div>
     </div>
-    <div class="second_img">
-        <img class="s_i" src="./images/pic1.gif" alt="#">
+    <div class="imggs">
+        <img src="./images/pic1.gif" alt="#">
     </div>
   </div>
-  <div class="second-bottom">
-       <div class="tex"> 
+  <div class="main-bottom">
+    <div class="tex"> 
         <h1 style="font-size: 25px;">CASE <SPan style="color: brown;">RESULT</SPan></h1>
-        <P class="sec1_para sec3_para">See how we help our clients. Read our latest case result.</P>
-       <div class="line3">
+        <P>See how we help our clients. Read our latest case result.</P>
+   <div class="line3">
         <div class="line1"></div>
-      <div class="btn2"><button >CLICK HERE <img src="./images/bullet_white_lrg.png" alt=""></button></div>
-      </div>
-      </div>
-      <div class="imggs">
-      <img class="book-img" src="./images/order_icon.gif" alt="#">
-      </div>
+      <div class="btn2"><button >CLICK HERE <img src="./images/bullet_white.gif" alt=""></button></div>
+    </div>
+    </div>
+    <div class="imggs">
+        <img src="./images/order_icon.gif" alt="#">
+    </div>
 
-     </div> 
-     </div>    
+  </div> 
+  </div>    
 
 <div class="right1">
 <div class="imgg3">
-    <img class="rightimg_1" src="images/qqq.gif" alt="">
-    <img class="rightimg_2" src="./images/national_college_small.gif" alt="">
+    <img class="rightimg_1" src="./images/qqq.gif" alt="">
+    <img class="rightimg_2" src="./images/national_college_large.gif" alt="">
 </div>
 <div class="AREA">
 <h1>CERTIFICATE & <SPan style="color: brown; ">CREDENTIALS</SPan></h1>
-<p class="sec1_para right_para">Keefer Law Firm has protected the<br>rights of Virginians for over 30 years.<br></P>
-<div class="line2 line4">
+<P>Keefer law firm has protected the rights of Virginians for over 30 years.</P>
+<div class="line2">
 <div class="line"></div>
-     <div class="btn1">  <button>LEARN MORE <img src="./images/bullet_white_lrg.png" alt=""></button></div> 
+     <div class="btn1">  <button>CLICK HERE <img src="./images/bullet_white.gif" alt=""></button></div> 
     </div>
 
 </div>
 </div>
+
+
         </section>
    <div class="shadow">
     <img src="./images/hr_shadow.png" alt="">
 </div>
- <div class="container">
-      <!-- Left Sidebar -->
-      <div class="sidebar-left">
-        <div class="side-left2">
-          <h2>PRACTICE <span class="highlights">AREAS</span></h2>
-
-            <div class="card">
-            <div class="card-inner">
-            <img src="./images/pra_bg_red.gif" alt="red bar" class="bar" />
-            </div>
-            <div class="card-content">
-              <h3>DUI & DWI</h3>
-              <a href="#"
-                >LEARN MORE <img src="./images/bullet_red.gif" alt=""
-              /></a>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-inner">
-              <img src="./images/pra_bg_red.gif" alt="red bar" class="bar" />
-            </div>
-            <div class="card-content">
-              <h3>RECKLESS DRIVING</h3>
-              <a href="#"
-                >LEARN MORE <img src="./images/bullet_red.gif" alt=""
-              /></a>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-inner">
-              <img src="./images/pra_bg_red.gif" alt="red bar" class="bar" />
-            </div>
-            <div class="card-content">
-              <h3>SPEEDING TICKETS</h3>
-              <a href="#"
-                >LEARN MORE <img src="./images/bullet_red.gif" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-inner">
-              <img src="./images/pra_bg_red.gif" alt="red bar" class="bar" />
-            </div>
-            <div class="card-content">
-              <h3>TRAFFIC VIOLATIONS</h3>
-              <a href="#"
-                >LEARN MORE <img src="./images/bullet_red.gif" alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="learn">LEARN <span class="red"> MORE </span>ABOUT</div>
-        <div class="last_portion">
-          <div>MENU</div>
-          <div>AREA</div>
-          <div>HERE</div>
-        </div>
-      </div>
-      <!--Middle Portion-->
-        <div class="middle-portion">
-        <h1>&lt;H1&gt;PAGE TITLE HERE</h1>
-        <p>
-          Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris 
-           nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur.
-           Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
-        </p>
-      </div>
-          <!-- Right Sidebar -->
-      <div class="right-portion">
-        <div class="right-box">
-          <div class="info-item">
-            <h3><span class="client">CLIENT</span> <span class="bold">TESTIMONIALS</span></h3>
-            <p>Read what others say about Keefer Law Firm.</p>
-              <div class="line1 line_right"></div>
-            <button class="btn-right">
-              CLICK HERE <img src="./images/bullet_white_lrg.png" alt="arrow" />
-            </button>
-          </div>
-        </div>
-        <div class="info-item">
-            <h3>DOWNLOAD<span class="bold"> FREE</span> REPORTS</h3>
-            <p class="para_2">Discover the truth about Virginia Law.</p>
-            <div class="line1 mt-0"></div>
-            <button class="btn-right btn-2">
-              CLICK HERE <img src="./images/bullet_white_lrg.png" alt="arrow" />
-            </button>
-          </div>
-
-          <div class="info-item">
-            <h3>CONTACT<span class="bold"> OUR</span> OFFICES</h3>
-            <p>Get your questions answered right now.</p>
-            <div class="line1 mt-0"></div>
-            <button class="btn-right btn-3">
-              CLICK HERE <img src="./images/bullet_white_lrg.png" alt="arrow" />
-            </button>
-             </div>
-       <div class="pics">
-          <img src="./images/avo_rating_large.gif" alt="Top Rating" />
-          <img class="pic_2" src="./images/national_college_large.gif" alt="Award" />
-        </div>
-        <div class="social">
-          <div class="follow">FOLLOW <span>US</span></div>
-        </div>
-          
-           <div class="icon">
-          <img src="./images/fb_icon.gif" alt="Facebook" />
-          <img src="./images/google_icon.gif" alt="Google" />
-          <img src="./images/twitter_icon.gif" alt="Twitter" />
-          <img src="./images/linked_icon.gif" alt="LinkedIn" />
-        </div>
+<!-- Left Sidebar-->
+ <section class="third">
+<div class="sidebarleft">
+<div class="hhr"><h1 >PRACTICE <SPan style="color: brown;">AREA</SPan></h1></div>
+<div class="topp">
+<div class="card">
+<div class="menu">
+    <img src="./images/pra_bg_red.gif" alt="">
+</div>
+<div class="menu-left">
+    <div class="cardcontent1">
+        <H1>DUI & DWI</H1>
+    </div>
+<div class="cardcontent2">
+    <a href="">LEARN MORE <img src="./images/bullet_red.gif" alt=""></a>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="menu">
+    <img src="./images/pra_bg_red.gif" alt="">
+</div>
+<div class="menu-left">
+    <div class="cardcontent1">
+        <H1>RECKLESS DRIVING</H1>
+    </div>
+<div class="cardcontent2">
+    <a href="">LEARN MORE <img src="./images/bullet_red.gif" alt=""></a>
+</div>
+</div>
+</div><div class="card">
+<div class="menu">
+    <img src="./images/menu_bg.gif" alt="">
+</div>
+<div class="menu-left">
+    <div class="cardcontent1">
+        <H1>SPEADING TICKETS</H1>
+    </div>
+<div class="cardcontent2">
+    <a href="">LEARN MORE <img src="./images/bullet_red.gif" alt=""></a>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="menu">
+    <img src="./images/pra_bg_red.gif" alt="">
+</div>
+<div class="menu-left">
+    <div class="cardcontent1">
+        <H1>TRAFFIC VOILATIONS</H1>
+    </div>
+<div class="cardcontent2">
+    <a href="">LEARN MORE <img src="./images/bullet_red.gif" alt=""></a>
+</div>
+</div>
+</div>
+</div>
 
 
-     </div>
+
+<div class="hh">
+<h1>LEARN <span style="color: brown;">MORE</span> ABOUT </h1>
+</div>
+<div class="hhh1">
+    <h1>MENU</h1>
+    <H1>AREA</H1>
+    <H1>HERE</H1>
+</div>
+
+</div>
+<!--Middle portion-->
+<div class="middle-portion">
+<h1> &lt;H1 &gt; PAGE TITLE HERE</h1>
+  <p style="padding-top: 33px;">
+    Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+    Allamco laboris nisi ut aliquip ex ea commodo consequat.
+    Aser velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+    Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+    Allamco laboris nisi ut aliquip ex ea commodo consequat.
+    Aser velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+  </p>
 
 
 </div>
-<img class="bottom" src="./images/ft_bg.png" alt="">
+<!--right sidebar-->
+<div class="right2">
+<div class="right21">
+    <h1>CLIENT <span style="color: brown;">
+        TESTIMONIALS
+    </span></h1>
+    <p>Read what other says about keefer law firm.</p>
 
+<div class="line2">
+<div class="line9" ></div>
+<button class="btn">CLICK HERE <img src="./images/bullet_white.gif" alt=""></button>
+</div>
+</div>
+<div class="right22">
+    <h1>DOWNLOAD <span style="color: brown;">FREE</span> REPORT</h1>
+<P>Discover the truth about Virginia law.</P>
+<div class="line2">
+<div class="line9" ></div>
+<button class="btn">CLICK HERE <img src="./images/bullet_white.gif" alt=""></button>
+</div>
 
+</div>
+<div class="right23">
+    <h1>CONTACT <span style="color: brown;">OUR</span> OFFICE</h1>
+    <P>Get your question answered right now</P>
+    
+<div class="line2">
+<div class="line9" ></div>
+<button class="btn">CLICK HERE <img src="./images/bullet_white.gif" alt=""></button>
+</div>
+</div>
 
-</body>
+<div class="right24">
+    <img src="./images/qqq.gif" alt=""></div>
+  <div class="right25">
+ <img src="./images/national_college_small.gif" alt=""></div>
+
+<div class="right26">
+<h1>FOLLOW <span style="color: brown;">US</span></h1>
+<div class="icon">
+<img src="./images/fb_icon.gif" alt="">
+<img src="./images/google_icon.gif" alt="">
+<img src="./images/twitter_icon.gif" alt="">
+<img src="./images/linked_icon.gif" alt="">
+
+</div>
+
+</div>
+</div>
+</section>
+<img class="footer" src="./images/ft_bg.png" alt="">
+</div>
 </html>
