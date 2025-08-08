@@ -1076,6 +1076,13 @@ text-align: center;
         width: 100%;
         grid-template-columns: 1fr 1fr;
     }
+    .second_section{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .imgg3{
+        display: inline;
+    }
 
     .first_section{
         width: 100%;
@@ -1145,6 +1152,9 @@ text-align: center;
     .para{
         width: 50%;
        
+    }
+    .right2{
+        width: 60%;
     }
     .imgs{
         width: 40%;
@@ -1234,6 +1244,7 @@ text-align: center;
         width: 100%;
     }
     @media (min-width: 1025px)and (max-width: 1350px) {
+
    .flex {
     display: flex;
     width: 100%;
