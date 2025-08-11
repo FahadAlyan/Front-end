@@ -1,0 +1,28 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #f8f9fa;
+ }
+.fsss {
+  font-size: 3.1rem !important;
+}
+.fss{
+  font-size: 1.2rem;
+}
+ .back{
+   background: url('./images/form_bg.jpg') no-repeat center center/cover;
+ }
+ .vvv{
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 3rem;
+ }
+ .uuu{
+  font-size:18px ;
+  padding-left: 10px;
+ }
+.jjkk{
+  transform: rotate(15deg);
+}
+.kkkk{
+  margin-left: 30px;
+}
